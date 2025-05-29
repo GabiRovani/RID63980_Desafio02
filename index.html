@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&family=Lusitana:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oregano:ital@0;1&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -22,25 +22,30 @@
 
         <section class="main-grid">
             <div class="imagem-destaque">
-                <img src="imagens/imagem1.svg" alt="imagem-destaque">
+                <img src="imagens primeira parte/imagem1.svg" alt="imagem-destaque">
+                <div class="texto-destaque">
+                    <p class="categoria">opinião</p>
+                    <h2>Como é ser um desenvolvedor</h2>
+                    <p class="autor"><strong>By</strong> Fabio Tetsuo</p>
+                </div>
             </div>
 
-     <!--Primeiro Conteúdo a Direita-->
+     <!--Primeiro e Segundo - Conteúdo a Direita-->
 
      <aside class="posts-populares">
         <h3>Posts populares</h3>
 
+    <div class="card-conteiner">
         <div class="card">
-        <img src="imagens/imagem2.svg" alt="imagem2">
-
-        <div class="texto">
-            <h4>Desenvolvimento atual</h4>
-            <p>22 Agosto 2022</p>
+         <img src="imagens primeira parte/imagem2.svg" alt="imagem2">
+            <div class="texto">
+                <h4>Desenvolvimento atual</h4>
+                <p>22 Agosto 2022</p>
+             </div>
         </div>
-     </div>
 
         <div class="card">
-            <img src="imagens/imagem3.svg" alt="imagem3">
+            <img src="imagens primeira parte/imagem3.svg" alt="imagem3">
             <div class="texto">
                 <h4>GitLab vs GitHub</h4>
                 <p>22 Agosto 2022</p>
@@ -48,16 +53,82 @@
         </div>
 
         <div class="card">
-            <img src="imagens/imagem4.svg" alt="imagem4">
+            <img src="imagens primeira parte/imagem4.svg" alt="imagem4">
             <div class="texto">
                 <h4>Café atrapalha?</h4>
                 <p>22 Agosto 2022</p>
             </div> 
         </div>
-     </aside>
-    </section>
+        
+        <div class="categorias">
+            <h3>Categorias</h3>
 
-     </main>
-    
+        <div class="categoria">
+            <span>&gt; saúde</span>
+            <span>(1)</span>
+        </div>
+            <div class="categoria">
+            <span>&gt; desenvolvimento</span>
+            <span>(2)</span>
+        </div>
+        <div class="categoria">
+            <span>&gt; produtividade</span>
+            <span>(3)</span>
+        </div>
+        <div class="categoria">
+            <span>&gt; opiniao</span>
+            <span>(4)</span>
+        </div>
+           
+    </div>
+</div>
+</section>
+</main>
+
+<section class="posts-recentes conteiner">
+    <div class="topo">
+        <span class="title">Posts mais recentes</span>
+        <a href="#" class="ver-todos">Ver todos</a>
+    </div>
+
+    <div class="grade-posts">
+        <div class="post">
+            <img src="imagens grade posts/imagem1grade.svg" alt="imagem1grade">
+            <p class="grade">desenvolvimento</p>
+            <h4>Desenvolvimento mobile</h4>
+            <p class="autor">By Fabio Tetsuo</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+            <p class="data">22 Agosto 2022</p>
+        </div>
+
+        <div class="post">
+            <img src="imagens grade posts/imagem2grade.svg" alt="imagem2grade">
+            <p class="grade">saude</p>
+            <h4>Balancear vida profissional e pessoal</h4>
+            <p class="autor">By Rhido Satriawan</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+            <p class="data">22 Agosto 2022</p>
+        </div>
+
+        <div class="post">
+            <img src="imagens grade posts/imagem3grade.svg" alt="imagem3grade">
+            <p class="grade">desenvolvimento</p>
+            <h4>Configurando VSCode</h4>
+            <p class="autor">By Fabio Tetsuo</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac</p>
+            <p class="data">22 Agosto 2022</p>
+        </div>
+        <div class="post">
+            <img src="imagens grade posts/imagem4grade.svg" alt="imagem4grade">
+            <p class="grade">produtividade</p>
+            <h4>2 monitores ou 1 ultrawide?</h4>
+            <p class="autor">By Fulano da Silva</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla</p>
+            <p class="data">22 Agosto 2022</p>
+        </div>
+
+    </div>
+
+</section>
 </body>
 </html>
